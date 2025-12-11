@@ -184,12 +184,12 @@ export const Apply: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-bold text-gray-700">First Name</label>
-                  <input {...register("firstName", { required: "First name is required" })} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 text-black" placeholder="Jean" />
+                  <input {...register("firstName", { required: "First name is required" })} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 text-black" placeholder="vava" />
                   {errors.firstName && <span className="text-red-500 text-xs">{errors.firstName.message as string}</span>}
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Last Name</label>
-                  <input {...register("lastName", { required: "Last name is required" })} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 text-black" placeholder="Mugisha" />
+                  <input {...register("lastName", { required: "Last name is required" })} className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 text-black" placeholder="collins" />
                   {errors.lastName && <span className="text-red-500 text-xs">{errors.lastName.message as string}</span>}
                 </div>
                 <div>
