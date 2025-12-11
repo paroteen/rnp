@@ -1,0 +1,7 @@
+{
+  "name": " RNP Recruitment Portal V2",
+  "description": "Official recruitment portal for the Rwanda National Police. Apply for positions, check status, and manage recruitment processes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
