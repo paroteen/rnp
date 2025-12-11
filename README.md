@@ -61,13 +61,13 @@ A comprehensive, secure, and modern web application designed to digitize the rec
 ## 🔑 Access Credentials
 
 ### Recruiter Admin Panel
-*   **URL:** `/admin` (Click "Admin" in Navbar)
-*   **Access Code:** `admin123`
+*   **URL:** `/` (Click "Admin" in Navbar)
+*   **Access Code:** ``
 *   **Role:** View applicants, verify documents, shortlist candidates.
 
 ### Super Admin Command Center
-*   **URL:** `/super-admin` (Or login via Admin panel)
-*   **Access Code:** `super123`
+*   **URL:** `/` (Or login via Admin panel)
+*   **Access Code:** `
 *   **Role:** Full system control, analytics, manage other admins, edit exams.
 
 ## 📂 Project Structure
